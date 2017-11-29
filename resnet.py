@@ -17,6 +17,7 @@ from keras.layers.normalization import BatchNormalization
 from keras.regularizers import l2
 from keras import backend as K
 
+#relu activation
 
 def _bn_relu(input):
     """Helper to build a BN -> relu block

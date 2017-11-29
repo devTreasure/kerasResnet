@@ -38,7 +38,7 @@ X_train -= mean_image
 X_test -= mean_image
 X_train /= 128.
 X_test /= 128.
-
+#code 
 model = resnet.ResnetBuilder.build_resnet_18((img_channels, img_rows, img_cols), nb_classes)
 model.compile(loss='categorical_crossentropy',
               optimizer='adam',
